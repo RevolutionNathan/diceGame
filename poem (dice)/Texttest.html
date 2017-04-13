@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head> 
+
+<title> Text Test </title>
+
+<link rel="stylesheet" type="text/css" href="Dice Site.css">
+
+</head>
+
+<header> 
+
+</header>
+
+<body>
+
+	<div class="inputArea">
+		<h1> Words!</h1>
+			<p> Type in some words here. </p>
+			<br>
+
+		<div class="inputText">
+			<input type="text" name="userInput" value="Articles" id="inputArticles">
+			<input type="text" name="userInput" value="Conjunctions" id="inputConjunctions"> <br>
+			<input type="text" name="userInput" value="adjectives" id="inputAdjectives">
+			<input type="text" name="userInput" value="Prpositions" id="inputPrepositions"> <br>
+			<input type="text" name="userInput" value="Verbs" id="inputVerbs">
+			<input type="text" name="userInput" value="Nouns" id="inputNouns">
+			<button onclick="run()">Submit</button>
+		</div>
+	</div>
+
+<div class="container">
+	<div class="left">
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+				<div id="drag1" draggable="true" ondragstart="drag(event)">
+					<p id="printout"> </p>
+				</div>
+		</div>
+	</div>
+	<div class="right">
+		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+	</div>
+</div>
+
+<script type="text/javascript" src="TextTest.js"></script> 
+<script type="text/javascript" src="dragAndDrop.js"></script>
+</body>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head> 
+
+<title> New div Test </title>
+
+<link rel="stylesheet" type="text/css" href="new<div>test.css">
+
+</head>
+
+<header> 
+
+</header>
+
+<body>
+
+	<div class="inputArea">
+		<h1> Words!</h1>
+			<p> Type in some words here. </p>
+			<br>
+
+		<div class="inputText">
+			<input type="text" name="userInput" value="Articles" id="inputArticles">
+			<input type="text" name="userInput" value="Conjunctions" id="inputConjunctions"> <br>
+			<input type="text" name="userInput" value="adjectives" id="inputAdjectives">
+			<input type="text" name="userInput" value="Prpositions" id="inputPrepositions"> <br>
+			<input type="text" name="userInput" value="Verbs" id="inputVerbs">
+			<input type="text" name="userInput" value="Nouns" id="inputNouns">
+			<button onclick="run()">Submit</button>
+			<button onclick="newDiv()">New Div</button>
+		</div>
+	</div>
+
+<div class="container">
+	<div class="left">
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+				<div id="drag1" draggable="true" ondragstart="drag(event)">
+					<p id="printout"> </p>
+				</div>
+		</div>
+	</div>
+	<div class="right">
+		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+	</div>
+</div>
+
+<script type="text/javascript" src="new<div>test.js"></script> 
+<script type="text/javascript" src="aNew<div>Test.js"></script>
+</body>
